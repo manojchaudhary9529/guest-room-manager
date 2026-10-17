@@ -93,7 +93,7 @@ Then open http://localhost:5000. The Express server serves the built frontend an
 
 ## API summary
 
-All routes except `/api/health` and `/api/auth/login` require `Authorization: Bearer <token>`.
+All routes except `/api/health` and `/api/auth/login` require an `Authorization: Bearer <token>` header.
 
 - `POST /api/auth/login`
 - `GET /api/rooms`
